@@ -1,4 +1,4 @@
-from src.vo.TemplateFieldAction import TemplateFieldAction
+from src.vo.action.TemplateFieldAction import TemplateFieldAction
 
 __author__ = 'DWI'
 
@@ -10,5 +10,3 @@ class TemplateFieldUpdate(TemplateFieldAction):
 
     def _apply_to_field(self, template, field):
         field.value = self.value[:field.get_size()]
-
-

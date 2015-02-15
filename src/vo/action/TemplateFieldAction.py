@@ -1,9 +1,10 @@
-from src.vo.TemplateAction import TemplateAction
+from src.vo.action.TemplateAction import TemplateAction
 
 __author__ = 'DWI'
 
 
 class TemplateFieldAction(TemplateAction):
+
     def __init__(self, field_name, value=None):
         self.field_name = field_name
         self.value = value
