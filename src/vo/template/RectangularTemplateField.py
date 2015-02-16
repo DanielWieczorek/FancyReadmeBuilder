@@ -1,9 +1,15 @@
+"""
+Module for RectangularTemplateField
+"""
 from src.vo.template.TemplateField import TemplateField
 
 __author__ = 'DWI'
 
 
 class RectangularTemplateField(TemplateField):
+    """
+    Class representing a rectangular template field.
+    """
 
     def __init__(self, name, start_point, end_point):
         super(RectangularTemplateField, self).__init__(name, start_point, end_point)
