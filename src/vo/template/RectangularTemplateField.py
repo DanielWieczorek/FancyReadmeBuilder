@@ -15,6 +15,10 @@ class RectangularTemplateField(TemplateField):
         super(RectangularTemplateField, self).__init__(name, start_point, end_point)
 
     def get_size(self):
+        """
+        Calculates the size of this TemplateField by multiplying height and width
+        :return: the size of this field in characters
+        """
         height = (self.end_point[self.Y] - self.start_point[self.Y] + 1)
         width = (self.end_point[self.X] - self.start_point[self.X] + 1)
         return height * width
