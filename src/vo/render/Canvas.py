@@ -11,9 +11,10 @@ class Canvas(object):
     """
 
     def __init__(self, background_string):
-        self.data_matrix = background_string.split("\n")
-        for i in range(len(self.data_matrix)):
-            self.data_matrix[i] = list(self.data_matrix[i])
+        if background_string:
+            self.data_matrix = background_string.split("\n")
+            for i in range(len(self.data_matrix)):
+                self.data_matrix[i] = list(self.data_matrix[i])
 
     def draw(self, template_field):
         """
