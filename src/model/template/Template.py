@@ -1,7 +1,7 @@
 """
 Module for Template
 """
-from src.vo.render.Canvas import Canvas
+from src.model.render.Canvas import Canvas
 
 __author__ = 'DWI'
 

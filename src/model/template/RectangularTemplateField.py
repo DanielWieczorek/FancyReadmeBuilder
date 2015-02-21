@@ -1,7 +1,7 @@
 """
 Module for RectangularTemplateField
 """
-from src.vo.template.TemplateField import TemplateField
+from src.model.template.TemplateField import TemplateField
 
 __author__ = 'DWI'
 

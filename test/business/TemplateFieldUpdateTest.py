@@ -1,9 +1,9 @@
 from hamcrest.core.assert_that import assert_that
 from hamcrest.core.core.isequal import equal_to
 
-from src.vo.template.RectangularTemplateField import RectangularTemplateField
-from src.vo.template.Template import Template
-from src.vo.action.TemplateFieldUpdate import TemplateFieldUpdate
+from src.model.template.RectangularTemplateField import RectangularTemplateField
+from src.model.template.Template import Template
+from src.model.action.TemplateFieldUpdate import TemplateFieldUpdate
 
 
 __author__ = 'DWI'

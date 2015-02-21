@@ -3,7 +3,7 @@ Module for TemplateFieldBuilder
 """
 from copy import copy
 
-from src.vo.template.RectangularTemplateField import RectangularTemplateField
+from src.model.template.RectangularTemplateField import RectangularTemplateField
 
 __author__ = 'DWI'
 

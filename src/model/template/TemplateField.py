@@ -23,7 +23,7 @@ class TemplateField(object):
         :param end_point: coordinates of the bottom right corner of the field
         """
         self.name = name
-        self.value = None
+        self.value = list()
         self.start_point = start_point
         self.end_point = end_point
 
@@ -50,11 +50,10 @@ class TemplateField(object):
         """
         canvas_data = canvas.data_matrix
         current_index = 0
-        if self.value is not None:
-            for character in self.value:
-                coordinates = self._get_coordinates(current_index)
-                canvas_data[coordinates[self.Y]][coordinates[self.X]] = character
-                current_index += 1
+        for character in self.value:
+            coordinates = self._get_coordinates(current_index)
+            canvas_data[coordinates[self.Y]][coordinates[self.X]] = character
+            current_index += 1
 
     def _get_coordinates(self, current_index):
         """

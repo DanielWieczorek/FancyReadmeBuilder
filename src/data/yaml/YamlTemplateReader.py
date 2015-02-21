@@ -4,7 +4,7 @@ Module for YamlTemplateReader
 import yaml
 
 from src.data.TemplateReader import TemplateReader
-from src.vo.template.Template import Template
+from src.model.template.Template import Template
 
 
 __author__ = 'DWI'

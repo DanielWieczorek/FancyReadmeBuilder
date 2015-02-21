@@ -1,5 +1,5 @@
-from src.vo.render.Canvas import Canvas
-from src.vo.template.RectangularTemplateField import RectangularTemplateField
+from src.model.render.Canvas import Canvas
+from src.model.template.RectangularTemplateField import RectangularTemplateField
 
 __author__ = 'DWI'
 from hamcrest.core.assert_that import assert_that

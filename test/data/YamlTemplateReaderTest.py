@@ -2,8 +2,8 @@ from hamcrest.core.assert_that import assert_that
 from hamcrest.core.core.isequal import equal_to
 from hamcrest.library.object import has_property
 
-from src.data.YamlTemplateFieldBuilder import YamlTemplateFieldBuilder
-from src.data.YamlTemplateReader import YamlTemplateReader
+from src.data.yaml.YamlTemplateReader import YamlTemplateReader
+from src.data.yaml.YamlTemplateFieldBuilder import YamlTemplateFieldBuilder
 
 
 __author__ = 'DWI'
