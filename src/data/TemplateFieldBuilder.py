@@ -14,7 +14,7 @@ class TemplateFieldBuilder(object):
     """
 
     def __init__(self):
-        self._field_mapping = {"rect": RectangularTemplateField(None,(0,0),(0,0))}
+        self._field_mapping = {"rect": RectangularTemplateField(None, (0, 0), (0, 0))}
 
     def build(self, data):
         """
@@ -23,7 +23,6 @@ class TemplateFieldBuilder(object):
         :return: The template field or None if the specified type was invalid
         """
         pass
-
 
     def _get_field_instance(self, field_type):
         original_field = self._field_mapping.get(field_type)

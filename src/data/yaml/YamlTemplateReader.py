@@ -45,6 +45,6 @@ class YamlTemplateReader(TemplateReader):
         template_content = template_data.get(template_name)
         field_list = list()
         for field_name in template_content.keys():
-            field_list.append(self.field_builder.build({field_name:template_content.get(field_name)}))
+            field_list.append(self.field_builder.build({field_name: template_content.get(field_name)}))
 
         return Template(None, field_list, template_name)

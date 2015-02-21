@@ -13,13 +13,13 @@ import unittest
 class MyTestCase(unittest.TestCase):
     def test_render(self):
         image = "123 yxz 123\n234 abc 234"
-        upper_field = RectangularTemplateField("one",(4, 0), (6, 0))
-        lower_field = RectangularTemplateField("two",(4, 1), (6, 1))
+        upper_field = RectangularTemplateField("one", (4, 0), (6, 0))
+        lower_field = RectangularTemplateField("two", (4, 1), (6, 1))
         upper_field.value = "foo"
         lower_field.value = "bar"
         template = Template(image, [upper_field, lower_field], "template_name")
 
-        assert_that( template.render(), equal_to("123 foo 123\n234 bar 234"))
+        assert_that(template.render(), equal_to("123 foo 123\n234 bar 234"))
 
 
 if __name__ == '__main__':

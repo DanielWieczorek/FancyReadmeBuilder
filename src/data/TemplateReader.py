@@ -13,14 +13,12 @@ class TemplateReader(object):
     def __init__(self, template_field_builder):
         self.field_builder = template_field_builder
 
-
     def read(self, file_name):
         """
         Reads the given file and returns a template object
         :param file_name: name of the template file
         :return: the template that was created
         """
-        data = None
         with open(file_name, 'r') as file:
             data = self._load_data(file)
         return self._build_template(data)

@@ -19,14 +19,13 @@ class Template(object):
         self._image = Canvas(image)
         self.field_list = list()
         self.name = name
-        if isinstance(fields,list):
+        if isinstance(fields, list):
             self.field_list.extend(fields)
         else:
             self.field_list.append(fields)
 
     def __iter__(self):
         return iter(self.field_list)
-
 
     def render(self):
         """

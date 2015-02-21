@@ -16,7 +16,6 @@ class CanvasTest(unittest.TestCase):
         canvas.draw(field)
         assert_that(canvas.get_string(), equal_to("123 foo 123"))
 
-
     def test_draw_multi_line(self):
 
         field = RectangularTemplateField("name", (4, 0), (6, 1))

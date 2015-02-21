@@ -15,7 +15,7 @@ class TemplateFieldUpdateTest(unittest.TestCase):
     def test_apply_positive(self):
         template_image = "== 12345 =="
         template_field = RectangularTemplateField("foo", (0, 4), (0, 8))
-        template = Template(template_image, template_field,"template_name")
+        template = Template(template_image, template_field, "template_name")
 
         TemplateFieldUpdate("foo", "Hello").apply_to(template)
 
