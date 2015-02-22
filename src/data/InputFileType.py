@@ -5,7 +5,7 @@ from enum import Enum
 __author__ = 'DWI'
 
 
-class TemplateReaderType(Enum):
+class InputFileType(Enum):
     """
     Enum defining the types of TemplateReaders
     """

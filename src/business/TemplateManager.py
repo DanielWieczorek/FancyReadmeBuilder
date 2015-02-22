@@ -3,7 +3,7 @@ Module for TemplateManager
 """
 import os
 
-from src.data.template.TemplateReaderType import TemplateReaderType
+from src.data.InputFileType import InputFileType
 
 
 __author__ = 'DWI'
@@ -29,7 +29,7 @@ class TemplateManager(object):
             if file_extension:
                 file_extension = file_extension[1:]
                 try:
-                    reader_type = TemplateReaderType[file_extension]
+                    reader_type = InputFileType[file_extension]
                     reader = self._template_reader_factory.build_for_type(reader_type)
                     template = reader.read(os.path.join(directory, template_file))
                     self._templates[template.name] = template

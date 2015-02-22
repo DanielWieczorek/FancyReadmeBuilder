@@ -2,8 +2,8 @@ from hamcrest.core.assert_that import assert_that
 from hamcrest.core.core.isequal import equal_to
 from hamcrest.library.object import has_property
 
+from src.data.InputFileType import InputFileType
 from src.data.template.TemplateReaderFactory import TemplateReaderFactory
-from src.data.template.TemplateReaderType import TemplateReaderType
 
 
 __author__ = 'DWI'
@@ -11,10 +11,11 @@ __author__ = 'DWI'
 import unittest
 
 
+
 class YamlTemplateReaderTest(unittest.TestCase):
     def test_read_template(self):
         reader_factory = TemplateReaderFactory()
-        reader = reader_factory.build_for_type(TemplateReaderType.yaml)
+        reader = reader_factory.build_for_type(InputFileType.yaml)
         template = reader.read("./templates/template.yaml")
 
         assert_that(template.field_list[0], has_property("name", equal_to("foo")))

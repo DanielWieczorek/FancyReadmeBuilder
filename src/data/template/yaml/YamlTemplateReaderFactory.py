@@ -11,9 +11,6 @@ class YamlTemplateReaderFactory(object):
     """
     Class for building TemplateReaders that read YAML files
     """
-    
-    def __init__(self):
-        super(YamlTemplateReaderFactory, self).__init__()
 
     def build(self):
         """

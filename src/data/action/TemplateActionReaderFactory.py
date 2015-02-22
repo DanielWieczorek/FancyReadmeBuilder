@@ -1,22 +1,11 @@
-"""
-Module for TemplateReaderFactory
-"""
 from src.data.InputFileType import InputFileType
-from src.data.template.yaml.YamlTemplateReaderFactory import YamlTemplateReaderFactory
-
+from src.data.action.YamlTemplateActionReaderFactory import YamlTemplateActionReaderFactory
 
 __author__ = 'DWI'
 
-
-class TemplateReaderFactory(object):
-    """
-    Factory base class for creating TemplateReader objects
-
-    This class contains an internal mapping that has to be updated if a new TemplateReader type is added.
-    """
-
+class TemplateActionReaderFactory(object):
     def __init__(self):
-        self._mapping = {InputFileType.yaml: YamlTemplateReaderFactory()}
+        self._mapping = {InputFileType.yaml: YamlTemplateActionReaderFactory()}
 
     def build_for_type(self, template_reader_type):
         """
