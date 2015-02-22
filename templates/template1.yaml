@@ -1,0 +1,8 @@
+test:
+ background: ./templates/img/nfo1.ans
+
+ fields:
+  author:
+   start_coord: (3,125)
+   end_coord: (23,125)
+   type: rect

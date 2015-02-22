@@ -36,3 +36,5 @@ class TemplateManager(object):
                 except KeyError:
                     print("type not supported")
 
+    def get_template(self, template_name):
+        return self._templates.get(template_name)

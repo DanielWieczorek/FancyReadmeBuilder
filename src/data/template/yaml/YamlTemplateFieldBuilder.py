@@ -31,6 +31,6 @@ class YamlTemplateFieldBuilder(TemplateFieldBuilder):
         result_field = self._get_field_instance(field_type)
         result_field.name = field_name
         result_field.start_point = ast.literal_eval(field_data.get("start_coord"))
-        result_field.end_point = ast.literal_eval(field_data.get("start_coord"))
+        result_field.end_point = ast.literal_eval(field_data.get("end_coord"))
 
         return result_field
