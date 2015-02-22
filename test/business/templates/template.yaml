@@ -1,0 +1,7 @@
+test:
+ background: "123"
+ fields:
+  foo:
+   start_coord: (1,2)
+   end_coord: (2,2)
+   type: rect
