@@ -31,5 +31,10 @@ class TemplateReader(object):
 
 
     def _load_background_image(self, file_name):
+        """
+        Reads the background image from the given file
+        :param file_name: name of the file to read the data from
+        :return: the content of the file as string
+        """
         with open(file_name, "r") as file:
             return file.read()
