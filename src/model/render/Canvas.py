@@ -11,6 +11,7 @@ class Canvas(object):
     """
 
     def __init__(self, background_string):
+        self.data_matrix = list()
         if background_string:
             self.data_matrix = background_string.split("\n")
             for i in range(len(self.data_matrix)):

@@ -42,9 +42,11 @@ class YamlTemplateReader(TemplateReader):
         :return: a new template object containing all the data for
         """
         template_name = next(iter(template_data))
-        template_content = template_data.get(template_name)
+
+        template_content = template_data.get(template_name).get("fields")
+        template_background = template_data.get(template_name).get("background")
         field_list = list()
         for field_name in template_content.keys():
             field_list.append(self.field_builder.build({field_name: template_content.get(field_name)}))
 
-        return Template(None, field_list, template_name)
+        return Template(template_background, field_list, template_name)

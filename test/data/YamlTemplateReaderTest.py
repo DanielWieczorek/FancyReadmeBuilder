@@ -19,7 +19,7 @@ class YamlTemplateReaderTest(unittest.TestCase):
 
         assert_that(template.field_list[0], has_property("name", equal_to("foo")))
         assert_that(template.name, equal_to("test"))
-
+        assert_that(template.render(), equal_to("123"))
 
 if __name__ == '__main__':
     unittest.main()
