@@ -2,8 +2,8 @@ from hamcrest.core.assert_that import assert_that
 from hamcrest.core.core.isequal import equal_to
 from hamcrest.library.object import has_property
 
-from src.data.TemplateReaderType import TemplateReaderType
-from src.data.TemplateReaderFactory import TemplateReaderFactory
+from src.data.template.TemplateReaderFactory import TemplateReaderFactory
+from src.data.template.TemplateReaderType import TemplateReaderType
 
 
 __author__ = 'DWI'

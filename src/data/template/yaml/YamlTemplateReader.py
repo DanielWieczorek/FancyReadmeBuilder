@@ -3,7 +3,7 @@ Module for YamlTemplateReader
 """
 import yaml
 
-from src.data.TemplateReader import TemplateReader
+from src.data.template.TemplateReader import TemplateReader
 from src.model.template.Template import Template
 
 

@@ -3,7 +3,7 @@ Module for YamlTemplateFieldBuilder
 """
 import ast
 
-from src.data.TemplateFieldBuilder import TemplateFieldBuilder
+from src.data.template.TemplateFieldBuilder import TemplateFieldBuilder
 
 
 __author__ = 'DWI'

@@ -1,8 +1,9 @@
 """
 Module for TemplateReaderFactory
 """
-from src.data.TemplateReaderType import TemplateReaderType
-from src.data.yaml.YamlTemplateReaderFactory import YamlTemplateReaderFactory
+from src.data.template.TemplateReaderType import TemplateReaderType
+from src.data.template.yaml.YamlTemplateReaderFactory import YamlTemplateReaderFactory
+
 
 __author__ = 'DWI'
 

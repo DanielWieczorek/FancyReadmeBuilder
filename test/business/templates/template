@@ -1,5 +1,5 @@
 test:
- background: "123"
+ background: ./template/image.ans
  fields:
   foo:
    start_coord: (1,2)

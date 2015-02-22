@@ -3,7 +3,7 @@ Module for TemplateManager
 """
 import os
 
-from src.data.TemplateReaderType import TemplateReaderType
+from src.data.template.TemplateReaderType import TemplateReaderType
 
 
 __author__ = 'DWI'
