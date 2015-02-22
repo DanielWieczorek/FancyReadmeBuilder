@@ -17,13 +17,13 @@ class TemplateReaderFactory(object):
     def __init__(self):
         self._mapping = {TemplateReaderType.yaml: YamlTemplateReaderFactory()}
 
-    def build_for_type(self, type):
+    def build_for_type(self, template_reader_type):
         """
         Build a Template of the given TemplateReaderType
-        :param type: type of the TemplateReader to build
+        :param template_reader_type: type of the TemplateReader to build
         :return: the built template reader or None if there were no mapping
         """
-        concrete_builder = self._mapping.get(type)
+        concrete_builder = self._mapping.get(template_reader_type)
         if concrete_builder:
             return concrete_builder.build()
         return None
