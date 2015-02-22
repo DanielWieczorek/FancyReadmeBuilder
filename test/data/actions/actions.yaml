@@ -1,0 +1,7 @@
+foo:
+ type: update
+ value: "hello world"
+
+bar:
+ type: update
+ value: "hello world2"
