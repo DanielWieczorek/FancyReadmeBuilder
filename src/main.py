@@ -8,14 +8,20 @@ __author__ = 'DWI'
 
 
 
-template_manager = TemplateManager(TemplateReaderFactory())
+def main():
+    template_manager = TemplateManager(TemplateReaderFactory())
 
-template_manager.load_templates("./templates")
-template = template_manager.get_template("test")
+    template_manager.load_templates("./templates")
+    template = template_manager.get_template("test")
 
-actions = TemplateActionReaderFactory().build_for_type(InputFileType.yaml).read("./config/actions.yaml")
+    actions = TemplateActionReaderFactory().build_for_type(InputFileType.yaml).read("./config/actions.yaml")
 
-for action in actions:
-    action.apply_to(template)
+    for action in actions:
+        action.apply_to(template)
 
-print(template.render())
+    print(template.render())
+
+
+if __name__ == "__main__":
+    main()
+
