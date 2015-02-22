@@ -15,11 +15,11 @@ class YamlTemplateReaderTest(unittest.TestCase):
     def test_read_template(self):
         reader_factory = TemplateReaderFactory()
         reader = reader_factory.build_for_type(TemplateReaderType.yaml)
-        template = reader.read("./template.yaml")
+        template = reader.read("./templates/template.yaml")
 
         assert_that(template.field_list[0], has_property("name", equal_to("foo")))
         assert_that(template.name, equal_to("test"))
-        assert_that(template.render(), equal_to("123"))
+        assert_that(template.render(), equal_to("1234"))
 
 if __name__ == '__main__':
     unittest.main()

@@ -28,3 +28,8 @@ class TemplateReader(object):
 
     def _build_template(self, template_data):
         pass
+
+
+    def _load_background_image(self, file_name):
+        with open(file_name, "r") as file:
+            return file.read()
