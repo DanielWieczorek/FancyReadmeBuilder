@@ -6,3 +6,8 @@ test:
    start_coord: (3,125)
    end_coord: (23,125)
    type: rect
+
+  desc:
+   start_coord: (13, 37)
+   end_coord: (67,47)
+   type: rect

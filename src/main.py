@@ -1,5 +1,5 @@
+from src.business.FancyReadmeBuilder import FancyReadmeBuilder
 from src.business.TemplateManager import TemplateManager
-from src.data.InputFileType import InputFileType
 from src.data.action.TemplateActionReaderFactory import TemplateActionReaderFactory
 from src.data.template.TemplateReaderFactory import TemplateReaderFactory
 
@@ -10,16 +10,12 @@ __author__ = 'DWI'
 
 def main():
     template_manager = TemplateManager(TemplateReaderFactory())
+    readme_builder = FancyReadmeBuilder(template_manager,TemplateActionReaderFactory())
 
-    template_manager.load_templates("./templates")
-    template = template_manager.get_template("test")
+    readme_builder.load_templates("./templates")
 
-    actions = TemplateActionReaderFactory().build_for_type(InputFileType.yaml).read("./config/actions.yaml")
-
-    for action in actions:
-        action.apply_to(template)
-
-    print(template.render())
+    rendered = readme_builder.apply_actions_and_render("./config/actions.yaml", "test")
+    print(rendered)
 
 
 if __name__ == "__main__":
