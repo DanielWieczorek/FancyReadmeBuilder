@@ -3,11 +3,16 @@ test:
 
  fields:
   author:
-   start_coord: (3,125)
-   end_coord: (23,125)
+   start_coord: (20,47)
+   end_coord: (60,47)
    type: rect
 
   desc:
-   start_coord: (13, 37)
-   end_coord: (67,47)
+   start_coord: (10, 18)
+   end_coord: (70,26)
+   type: rect
+
+  usage:
+   start_coord: (10, 30)
+   end_coord: (70,45)
    type: rect
