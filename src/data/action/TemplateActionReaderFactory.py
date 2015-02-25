@@ -1,5 +1,5 @@
 from src.data.InputFileType import InputFileType
-from src.data.action.YamlTemplateActionReaderFactory import YamlTemplateActionReaderFactory
+from src.data.action.yaml.YamlTemplateActionReaderFactory import YamlTemplateActionReaderFactory
 
 __author__ = 'DWI'
 

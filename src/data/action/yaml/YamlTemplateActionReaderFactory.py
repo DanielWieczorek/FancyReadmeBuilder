@@ -1,5 +1,5 @@
-from src.data.action.YamlTemplateActionBuilder import YamlTemplateActionBuilder
-from src.data.action.YamlTemplateActionReader import YamlTemplateActionReader
+from src.data.action.yaml.YamlTemplateActionBuilder import YamlTemplateActionBuilder
+from src.data.action.yaml.YamlTemplateActionReader import YamlTemplateActionReader
 
 __author__ = 'DWI'
 

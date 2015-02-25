@@ -1,16 +1,10 @@
 from src.business.FancyReadmeBuilder import FancyReadmeBuilder
-from src.business.TemplateManager import TemplateManager
-from src.data.action.TemplateActionReaderFactory import TemplateActionReaderFactory
-from src.data.template.TemplateReaderFactory import TemplateReaderFactory
 
 __author__ = 'DWI'
 
 
-
-
 def main():
-    template_manager = TemplateManager(TemplateReaderFactory())
-    readme_builder = FancyReadmeBuilder(template_manager,TemplateActionReaderFactory())
+    readme_builder = FancyReadmeBuilder.get_instance()
 
     readme_builder.load_templates("./templates")
 
