@@ -41,3 +41,60 @@ To run the sample just execute the the following command:
 ```
 python3 src/main.py --templatedir ./templates --actions ./config/actions.yaml --template test
 ```
+
+To show what the tool does heres the 'before':
+```
+
+
+
+                                  ▄▄    ▄▄███▄▄
+                                █████▓▄████████▓
+                              ▄▄▀████████████▓▀
+                      ▄▄████ ██▓▒ █████████▓▀▀▒▓███▄
+                     ▐██████ ██▓▒▀▄██████▄ ▄▒▒▓██████
+                     ████████ ▓▒ ████████▓▓ ▒▓██▀████▓
+                     ▐████ ██▄▀▓▒▄ █████▓ ▄▒▓██ █████▓▌
+                      █████ ███▓▒ ██████▓ ▒▓██▄█████▓█
+                       █████▄▀██▓▒▄▀███▀ ▒▓███████▓▓▀
+                        ▀█████▄▀█▓▒▀ ▀    ▀▀▀███▓▀▀
+                          ▀███▀
+
+
+                           D E S C R I P T I O N                               ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                               U S A G E                                      ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                             A U T H O R S                                    ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+```
+and heres the 'after':
