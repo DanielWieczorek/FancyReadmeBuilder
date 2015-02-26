@@ -9,5 +9,35 @@ Its description contain the background image (ANSI Art) and a set of named field
 
 To fill these fields with life create a description of the Readme you want in yaml. There is for a set of templated defined what text should be inserted into the fields.
 
+# Defining Templates
 
+Templates are currently defined in YAML like this:
+```
+test:
+ background: ./templates/img/nfo1.ans
+
+ fields:
+  author:
+   start_coord: (20,47)
+   end_coord: (60,47)
+   type: rect
+```
+"test" is the name of the template, background is path to the ANSI art that acts as base for the readme file.
+the next part is the definition of fileds. In this case there is a rectagular field defined that has the name "author". The start coord is the upper left corner and the end coord is the bottom right corner.
+
+# Defining Actions
+
+At the moment the only format in which the actions can be defined is YAML. E.g. such an action definition file contains entries like this:
+```
+author:
+ type: update
+ value: "Daniel Wieczorek"
+```
+
+the field updated is author, the action is an updated and the value that is written to the field is my name :). There can be numerous entries like this in the file
+
+# Run the sample
+To run the sample just execute the the following command:
+```
 python3 src/main.py --templatedir ./templates --actions ./config/actions.yaml --template test
+```
