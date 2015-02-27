@@ -99,7 +99,7 @@ To show what the tool does heres the 'before':
 ```
 and heres the 'after':
 
-
+```
 
 
                                   ▄▄    ▄▄███▄▄
@@ -151,3 +151,4 @@ and heres the 'after':
 ▌                                                                              ▐
 ▌                                                                              ▐
 ▌                                                                              ▐
+```
