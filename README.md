@@ -98,3 +98,56 @@ To show what the tool does heres the 'before':
 ▌                                                                              ▐
 ```
 and heres the 'after':
+
+
+
+
+                                  ▄▄    ▄▄███▄▄
+                                █████▓▄████████▓
+                              ▄▄▀████████████▓▀
+                      ▄▄████ ██▓▒ █████████▓▀▀▒▓███▄
+                     ▐██████ ██▓▒▀▄██████▄ ▄▒▒▓██████
+                     ████████ ▓▒ ████████▓▓ ▒▓██▀████▓
+                     ▐████ ██▄▀▓▒▄ █████▓ ▄▒▓██ █████▓▌
+                      █████ ███▓▒ ██████▓ ▒▓██▄█████▓█
+                       █████▄▀██▓▒▄▀███▀ ▒▓███████▓▓▀
+                        ▀█████▄▀█▓▒▀ ▀    ▀▀▀███▓▀▀
+                          ▀███▀
+
+
+                           D E S C R I P T I O N                               ▐
+▌                                                                              ▐
+▌         Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo H        ▐
+▌         allo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Ha        ▐
+▌         llo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hal        ▐
+▌         lo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hall        ▐
+▌         o Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo        ▐
+▌          Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo         ▐
+▌         Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo H        ▐
+▌         allo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Ha        ▐
+▌         llo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hallo Hal        ▐
+▌                                                                              ▐
+▌                               U S A G E                                      ▐
+▌                                                                              ▐
+▌         foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo b        ▐
+▌         ar foo bar foo bar foo bar foo bar foo bar foo bar foo bar fo        ▐
+▌         o bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar        ▐
+▌          foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo         ▐
+▌         bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar f        ▐
+▌         oo bar foo bar foo bar foo bar foo bar foo bar foo bar foo ba        ▐
+▌         r foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo        ▐
+▌          bar foo bar foo bar foo bar foo bar foo bar foo bar                 ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                             A U T H O R S                                    ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                   Daniel Wieczorek                                           ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
+▌                                                                              ▐
